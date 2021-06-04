@@ -1,0 +1,158 @@
+*{
+    background-color: aliceblue;
+    padding: 0px;
+    margin: 0px auto;
+}
+header{
+    text-align: center;
+    position: relative;
+    top: 0%;
+    min-height: 15%;
+    background-color: aqua;
+    width: 100% ;
+}
+footer{
+    color: white;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    bottom:0%;
+    left:0%;
+    right: 0%;
+    min-height: 5%;
+}
+.errors{
+    background-color: blue;
+}
+.body{
+    background-color:blueviolet;
+    border: solid 3px black;
+}
+.body .formclass{
+    position: absolute;
+    top: 20%;
+    right: 25%;
+    width: 50%;
+    min-height: 50%;
+    background-color: darkcyan;
+    border:solid 2px blue;
+}
+.body .formclass .iinform{
+    position: relative;
+    font-size: 30px;
+    top: 2%;
+    background-color:inherit;
+}
+.body .formclass p{
+    font-size: 40px;
+    position: relative;
+    background-color: darkcyan;
+}
+.body .formclass .iinform p{
+    background-color: darkcyan;
+}
+.body .formclass .iinform p input{
+    position: absolute;
+    right: 2%;
+    width: 30%;
+    padding: 5px;
+}
+.body .formclass .iinform button{
+    position: absolute;
+    right: 3%;
+    font-size: 25px;
+    background-color: lightpink;
+}
+.body .formclass .iinform button:hover{
+    background-color: pink;
+    cursor: pointer;
+}
+.body .formclass .iinform button:active{
+    background-color: blue;
+    color: yellow;
+}
+.menubarclass{
+    position: absolute;
+    right: 0%;
+    left: 0%;
+}
+.menubarclass .menbar1{
+    position: absolute;
+    background-color: black;
+    word-spacing: 20px;
+    right: 0%;
+    left: 0%;
+}
+.menubarclass .menbar1 a{
+    background-color: inherit;
+}
+.menubarclass .menbar1 button{
+    font-size: 30px;
+    color: white;
+    background-color: inherit;
+    border: solid 1px white;
+}
+.menubarclass .menbar1 button:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+.datacontent{
+    display: block;
+    position: absolute;
+    height: 70%;
+    bottom: 0%;
+    width: 50%;
+    left: 25%;
+    color: white;
+    font-size: 35px;
+    line-height: 60px;
+    background-color: blue;
+}
+.datacontent p{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    border: solid 1px gray;
+}
+.datacontent p a{
+    position: absolute;
+    right: 5%;
+}
+.menubarclass p{
+    font-size: 20px;
+    word-spacing: 5px;
+    background-color: yellow;
+    color: red;
+}
+.menubarclass .content{
+    background-color: turquoise;   
+}
+.editcontent{
+    display: none;
+    position: absolute;
+    height: 70%;
+    bottom: 0%;
+    width: 50%;
+    left: 25%;
+    color: white;
+    font-size: 35px;
+    line-height: 60px;
+    background-color: blue;
+}
+.editcontent p{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    border: solid 1px gray;
+}
+.editcontent button{
+    position: absolute;
+    right: 3%;
+    font-size: 25px;
+    background-color: lightpink;   
+}
+.editcontent p a input{
+    padding: 3px;
+    position: absolute;
+    right: 4%;
+}
